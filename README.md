@@ -2,8 +2,7 @@
 
 A robust backend REST API for managing vehicle rentals, built with Node.js, Express, and PostgreSQL. This system handles user authentication, vehicle inventory management, and rental bookings with role-based access control.
 
-**Live URL:** [Insert Live URL Here]  
-_(Local Development: http://localhost:5000)_
+**Live URL:** https://vehicle-rental-system-api.vercel.app
 
 ## 🚀 Features
 
