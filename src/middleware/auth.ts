@@ -20,7 +20,6 @@ const auth = (...roles: string[]) => {
         token,
         config.jwtSecret as string
       ) as JwtPayload;
-      console.log({ decoded });
       req.user = decoded;
 
       //["admin"]
