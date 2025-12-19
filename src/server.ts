@@ -1,3 +1,4 @@
+import cors from "cors";
 import express from "express";
 import config from "./config";
 import initDB from "./config/db";
@@ -9,6 +10,7 @@ import { vehicleRouter } from "./modules/vehicles/vehicles.routes";
 const app = express();
 const port = config.port;
 
+app.use(cors());
 app.use(express.json());
 
 initDB();

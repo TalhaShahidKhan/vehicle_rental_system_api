@@ -20,6 +20,7 @@
   "homepage": "https://github.com/TalhaShahidKhan/vehicle_rental_system_api#readme",
   "devDependencies": {
     "@types/bcrypt": "^6.0.0",
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
     "@types/jsonwebtoken": "^9.0.10",
     "@types/pg": "^8.15.6",
@@ -33,6 +34,7 @@
   "dependencies": {
     "@types/node-fetch": "^2.6.13",
     "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
     "node-fetch": "^2.7.0"
   }
 }
