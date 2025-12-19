@@ -4,6 +4,7 @@ import config from "./config";
 import initDB from "./config/db";
 import { authRouter } from "./modules/auth/auth.routes";
 import { bookingRouter } from "./modules/bookings/bookings.routes";
+import { dashboardRouter } from "./modules/dashboard/dashboard.routes";
 import { userRouter } from "./modules/users/users.routes";
 import { vehicleRouter } from "./modules/vehicles/vehicles.routes";
 
@@ -19,6 +20,7 @@ app.use("/api/v1/users", userRouter);
 app.use("/api/v1/auth", authRouter);
 app.use("/api/v1/vehicles", vehicleRouter);
 app.use("/api/v1/bookings", bookingRouter);
+app.use("/api/v1/dashboard", dashboardRouter);
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
